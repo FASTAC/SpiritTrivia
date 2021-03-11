@@ -8,7 +8,13 @@ window.onload = function () {
   
   var GodsQuestions = []
     
-  var AngelsQuestions = [{
+  var AngelsQuestions = [
+    {
+      "Question": "What power is commonly associated with Archangel Michael?",
+      "Choices": ["Protection", "Healing", "Love", "Rain"], 
+      "Answer": "Protection"
+    },
+    {
     "Question": "What planet is Vehuiah associated with?",
     "Choices": ["Mercury", "Jupiter", "Venus", "Neptune"], 
     "Answer": "Neptune"
@@ -820,6 +826,7 @@ window.onload = function () {
       OptionD.interactive = true;
 
       NextQuestion(CurrentSpiritType);
+      PositionObjects();
     }, 2500);
     
   }
