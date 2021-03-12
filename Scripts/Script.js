@@ -399,10 +399,10 @@ window.onload = function () {
 
   const app = new PIXI.Application({
     backgroundColor: 0x36393f,
-    resolution: window.devicePixelRatio || 1,
     resizeTo: window,
     antialias: true
   });
+  console.log(app.resolution)
   var GameDiagonal = CalculateDiagonal(app.renderer.width, app.renderer.height)
   var Margin = GameDiagonal * 0.005;
 
@@ -852,7 +852,7 @@ window.onload = function () {
 
   // Events
   function PositionObjects() {
-
+	app.renderer.resize(window.innerWidth, window.innerHeight);
     GameDiagonal = CalculateDiagonal(app.renderer.width, app.renderer.height);
     Margin = GameDiagonal * 0.005;
     if (CurrentScreen == Screens.Menu) {
