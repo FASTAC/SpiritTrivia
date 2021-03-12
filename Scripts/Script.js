@@ -402,12 +402,10 @@ window.onload = function () {
     resizeTo: window,
     antialias: true
   });
-  console.log(app.resolution)
   var GameDiagonal = CalculateDiagonal(app.renderer.width, app.renderer.height)
   var Margin = GameDiagonal * 0.005;
 
   document.body.appendChild(app.view);
-  console.log(app.renderer.width);
 
   var MenuContainer = new PIXI.Container();
   const MenuTextStyle = new PIXI.TextStyle({
@@ -768,7 +766,6 @@ window.onload = function () {
     {
       // Wrong
     }*/
-    console.log(OptionA.text)
     OptionA.interactive = false;
     OptionB.interactive = false;
     OptionC.interactive = false;
@@ -829,7 +826,6 @@ window.onload = function () {
         break;
     }
 
-    console.log(AnsweredQuestions);
     // Remove Effect and advance question
     setTimeout(() => 
     {
