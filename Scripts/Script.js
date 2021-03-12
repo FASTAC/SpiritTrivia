@@ -6,7 +6,13 @@ window.onload = function () {
   var FPS = 30;
 
   
-  var GodsQuestions = []
+  var GodsQuestions = [
+    {
+      "Question": "Which goddess is commonly titled \"the goddess of the crossroads\"?",
+      "Choices": ["Athena", "Hecate", "Artemis", "Aphrodite"], 
+      "Answer": "Hecate"
+    }
+  ]
     
   var AngelsQuestions = [
     {
@@ -374,8 +380,20 @@ window.onload = function () {
     "Choices": ["Mars", "Sun", "Moon", "Saturn"], 
     "Answer": "Moon"
     }]
-  var DemonsQuestions = []
-  var SpiritQuestions = []
+  var DemonsQuestions = [
+    {
+      "Question": "Which demon possesses the title of \"the light bringer\"?",
+      "Choices": ["Dantalion", "Azazel", "Lucifer", "Astaroth"], 
+      "Answer": "Lucifer"
+    }
+  ]
+  var SpiritQuestions = [
+    {
+      "Question": "Who is the Genius of Irrevocable Choice?",
+      "Choices": ["Sialul", "Nitika", "Zeffak", "Sair"], 
+      "Answer": "Zeffak"
+    }
+  ]
   var CurrentQuestion;
   var AnsweredQuestions = [];
 
