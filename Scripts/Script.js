@@ -387,13 +387,430 @@ window.onload = function () {
       "Answer": "Lucifer"
     }
   ]
-  var SpiritQuestions = [
+  var SpiritQuestions = 
+  [
     {
-      "Question": "Who is the Genius of Irrevocable Choice?",
-      "Choices": ["Sialul", "Nitika", "Zeffak", "Sair"], 
-      "Answer": "Zeffak"
-    }
-  ]
+    "Question": "What is the role of the Genius Papus?",
+    "Choices": ["Genius Of The Seas", "Genius Of Desire", "Devil Or Hostile Genius", "Physician"], 
+    "Answer": "Physician"
+    },
+    {
+    "Question": "What is the role of the Genius Sinbuck?",
+    "Choices": ["Genius Of Stryges", "Genius Of Doves", "Genius Of Scandal", "Judge"], 
+    "Answer": "Judge"
+    },
+    {
+    "Question": "What is the role of the Genius Kasphuia?",
+    "Choices": ["Genius Of The Stibium Of The Sages", "Genius Of Confusion", "Necromancer", "Genius Of Writing"], 
+    "Answer": "Necromancer"
+    },
+    {
+    "Question": "What is the role of the Genius Zahun?",
+    "Choices": ["Genius Of Attire", "Genius Of Goetic Magic", "Genius Of Scandal", "Genius Who Compels Love"], 
+    "Answer": "Genius Of Scandal"
+    },
+    {
+    "Question": "What is the role of the Genius Heiglot?",
+    "Choices": ["Genius Of Adornments", "Genius Of Poisons", "Genius Of Snowstorms", "Genius Of Desire"], 
+    "Answer": "Genius Of Snowstorms"
+    },
+    {
+    "Question": "What is the role of the Genius Mizkun?",
+    "Choices": ["Genius Of Poisons", "Genius Of Amulets", "Genius Of The Seas", "Genius Of Calculations"], 
+    "Answer": "Genius Of Amulets"
+    },
+    {
+    "Question": "What is the role of the Genius Haven?",
+    "Choices": ["Genius Of Divination", "Genius Of Dignity", "Genius Of Doves", "Genius Of Mysteries"], 
+    "Answer": "Genius Of Dignity"
+    },
+    {
+    "Question": "What is the role of the Genius Sisera?",
+    "Choices": ["Genius Of The Onyx", "Genius Of Desire", "Genius Of Irrevocable Choice", "Genius Of Inquisition"], 
+    "Answer": "Genius Of Desire"
+    },
+    {
+    "Question": "What is the role of the Genius Torvatus?",
+    "Choices": ["Devil Or Hostile Genius", "Genius Of Prosperity", "Genius Of Confusion", "Genius Of Discord"], 
+    "Answer": "Genius Of Discord"
+    },
+    {
+    "Question": "What is the role of the Genius Nitibus?",
+    "Choices": ["Genius Of Free Will", "Genius Of Doves", "Genius Of The Stars", "Genius Of Inquisition"], 
+    "Answer": "Genius Of The Stars"
+    },
+    {
+    "Question": "What is the role of the Genius Hizarbin?",
+    "Choices": ["Genius Of Confusion", "Genius Of Divination", "Genius Of The Seas", "Genius Of The Stibium Of The Sages"], 
+    "Answer": "Genius Of The Seas"
+    },
+    {
+    "Question": "What is the role of the Genius Sachluph?",
+    "Choices": ["Genius Of Forests", "Genius Who Sets Prisons Open", "Genius Of Death", "Genius Of Plants"], 
+    "Answer": "Genius Of Plants"
+    },
+    {
+    "Question": "What is the role of the Genius Baglis?",
+    "Choices": ["Genius Of Sport", "Genius Of The Dust", "Genius Of Measure And Balance", "Genius Of Sacred Vessels"], 
+    "Answer": "Genius Of Measure And Balance"
+    },
+    {
+    "Question": "What is the role of the Genius Labezerin?",
+    "Choices": ["Genius Of Doves", "Genius Of Success", "Genius Of Goetic Magic", "Genius Of Cupidity"], 
+    "Answer": "Genius Of Success"
+    },
+    {
+    "Question": "What is the role of the Genius Hahabi?",
+    "Choices": ["Genius Of Bestial Love", "Genius Of Death", "Avenging Genius", "Genius Of Fear"], 
+    "Answer": "Genius Of Fear"
+    },
+    {
+    "Question": "What is the role of the Genius Phlogabitus?",
+    "Choices": ["Genius Of Association", "Genius Of Adornments", "Sustaining Genius", "Genius Of Goetic Magic"], 
+    "Answer": "Genius Of Adornments"
+    },
+    {
+    "Question": "What is the role of the Genius Eirneus?",
+    "Choices": ["Genius Of The Lightning", "Necromancer", "Destroying Genius Of Idols", "Genius Of Mysteries"], 
+    "Answer": "Destroying Genius Of Idols"
+    },
+    {
+    "Question": "What is the role of the Genius Mascarun?",
+    "Choices": ["Genius Of Fruits", "Genius Of Therapeutics", "Genius Of Writing", "Genius Of Death"], 
+    "Answer": "Genius Of Death"
+    },
+    {
+    "Question": "What is the role of the Genius Zarobi?",
+    "Choices": ["Genius Of Precipices", "Genius Of Attire", "Serpent-Charming Genius", "Genius Of Irrevocable Choice"], 
+    "Answer": "Genius Of Precipices"
+    },
+    {
+    "Question": "What is the role of the Genius Butatar?",
+    "Choices": ["Sustaining Genius", "Genius Of Calculations", "Genius Of Fascination", "Genius Of Persecution"], 
+    "Answer": "Genius Of Calculations"
+    },
+    {
+    "Question": "What is the role of the Genius Cahor?",
+    "Choices": ["Genius Of Adornments", "Genius Of Sacred Vessels", "Genius Of Deception", "Genius Of Fornication"], 
+    "Answer": "Genius Of Deception"
+    },
+    {
+    "Question": "What is the role of the Genius Phalgus?",
+    "Choices": ["Genius Of Judgment", "Genius Of Precious Stones", "Genius Of Cupidity", "Genius Of Plants"], 
+    "Answer": "Genius Of Judgment"
+    },
+    {
+    "Question": "What is the role of the Genius Thagrinus?",
+    "Choices": ["Genius Of Sympathies", "Genius Of Confusion", "Genius Of Irrevocable Choice", "Genius Of Pantacles"], 
+    "Answer": "Genius Of Confusion"
+    },
+    {
+    "Question": "What is the role of the Genius Eistibus?",
+    "Choices": ["Genius Of The Stars", "Genius Of Precipices", "Genius Of Divination", "Genius Of Therapeutics"], 
+    "Answer": "Genius Of Divination"
+    },
+    {
+    "Question": "What is the role of the Genius Pharzuph?",
+    "Choices": ["Genius Of The Dust", "Genius Of Fornication", "Genius Of Pantacles", "Genius Of Fascination"], 
+    "Answer": "Genius Of Fornication"
+    },
+    {
+    "Question": "What is the role of the Genius Sislau?",
+    "Choices": ["Genius Of Poisons", "Genius Of Voyages", "Genius Of The Marriage Of Contraries", "Genius Of Languages"], 
+    "Answer": "Genius Of Poisons"
+    },
+    {
+    "Question": "What is the role of the Genius Schiekron?",
+    "Choices": ["Genius Of Bestial Love", "Genius Of Discord", "Genius Of Sacred Vessels", "Genius Of Extortion"], 
+    "Answer": "Genius Of Bestial Love"
+    },
+    {
+    "Question": "What is the role of the Genius Aclahayr?",
+    "Choices": ["Genius Of Prosperity", "Necromancer", "Genius Of Sport", "Genius Of Rocks"], 
+    "Answer": "Genius Of Sport"
+    },
+    {
+    "Question": "What is the role of the Genius Zeirna?",
+    "Choices": ["Genius Of Languages", "Genius Of Delusive Appearances", "Genius Of Infirmities", "Genius Who Sets Prisons Open"], 
+    "Answer": "Genius Of Infirmities"
+    },
+    {
+    "Question": "What is the role of the Genius Tablibik?",
+    "Choices": ["Genius Of Fascination", "Genius Of The Dust", "Genius Of Therapeutics", "Destroyer Of Children"], 
+    "Answer": "Genius Of Fascination"
+    },
+    {
+    "Question": "What is the role of the Genius Tacritau?",
+    "Choices": ["Genius Of Poisons", "Genius Of Death", "Genius Of The Quintessence", "Genius Of Goetic Magic"], 
+    "Answer": "Genius Of Goetic Magic"
+    },
+    {
+    "Question": "What is the role of the Genius Suphlatus?",
+    "Choices": ["Physician", "Genius Of The Dust", "Genius Who Discovers Thieves", "Genius Who Sets Doors Open"], 
+    "Answer": "Genius Of The Dust"
+    },
+    {
+    "Question": "What is the role of the Genius Sair?",
+    "Choices": ["Genius Of The Stibium Of The Sages", "Genius Of The Quintessence", "Serpent-Charming Genius", "Genius Of Forests"], 
+    "Answer": "Genius Of The Stibium Of The Sages"
+    },
+    {
+    "Question": "What is the role of the Genius Barcus?",
+    "Choices": ["Genius Of Sacred Vessels", "Genius Of The Sun's Rays", "Genius Of The Quintessence", "Avenging Genius"], 
+    "Answer": "Genius Of The Quintessence"
+    },
+    {
+    "Question": "What is the role of the Genius Camaysar?",
+    "Choices": ["Genius Of The Marriage Of Contraries", "Genius Who Sets Prisons Open", "Genius Of Plants", "Genius Of Infirmities"], 
+    "Answer": "Genius Of The Marriage Of Contraries"
+    },
+    {
+    "Question": "What is the role of the Genius Tabris?",
+    "Choices": ["Genius Of Success", "Destroying Genius Of Idols", "Genius Of Fire", "Genius Of Free Will"], 
+    "Answer": "Genius Of Free Will"
+    },
+    {
+    "Question": "What is the role of the Genius Susabo?",
+    "Choices": ["Genius Of Success", "Genius Of Languages", "Genius Of The Stars", "Genius Of Voyages"], 
+    "Answer": "Genius Of Voyages"
+    },
+    {
+    "Question": "What is the role of the Genius Eirnilus?",
+    "Choices": ["Genius Of Precipices", "Genius Who Sets Prisons Open", "Genius Of Fruits", "Genius Of Stryges"], 
+    "Answer": "Genius Of Fruits"
+    },
+    {
+    "Question": "What is the role of the Genius Nitika?",
+    "Choices": ["Genius Of The Onyx", "Genius Who Conceals Treasures", "Genius Of Measure And Balance", "Genius Of Precious Stones"], 
+    "Answer": "Genius Of Precious Stones"
+    },
+    {
+    "Question": "What is the role of the Genius Haatan?",
+    "Choices": ["Genius Of Forests", "Genius Of Stryges", "Serpent-Charming Genius", "Genius Who Conceals Treasures"], 
+    "Answer": "Genius Who Conceals Treasures"
+    },
+    {
+    "Question": "What is the role of the Genius Hatiphas?",
+    "Choices": ["Genius Of The Quintessence", "Genius Who Discovers Thieves", "Genius Of Writing", "Genius Of Attire"], 
+    "Answer": "Genius Of Attire"
+    },
+    {
+    "Question": "What is the role of the Genius Zaren?",
+    "Choices": ["Avenging Genius", "Sustaining Genius", "Genius Of Therapeutics", "Genius Of Dogs Or Of The Profane"], 
+    "Answer": "Avenging Genius"
+    },
+    {
+    "Question": "What is the role of the Genius Sialul?",
+    "Choices": ["Genius Of Eagles", "Genius Of The Quintessence", "Genius Of Sympathies", "Genius Of Prosperity"], 
+    "Answer": "Genius Of Prosperity"
+    },
+    {
+    "Question": "What is the role of the Genius Sabrus?",
+    "Choices": ["Sustaining Genius", "Genius Of Measure And Balance", "Genius Of Death", "Physician"], 
+    "Answer": "Sustaining Genius"
+    },
+    {
+    "Question": "What is the role of the Genius Librabis?",
+    "Choices": ["Serpent-Charming Genius", "Genius Of The Stars", "Genius Of Hidden Gold", "Genius Of Delusive Appearances"], 
+    "Answer": "Genius Of Hidden Gold"
+    },
+    {
+    "Question": "What is the role of the Genius Mizgitari?",
+    "Choices": ["Genius Of The Onyx", "Genius Of Eagles", "Genius Of Free Will", "Genius Of Plants"], 
+    "Answer": "Genius Of Eagles"
+    },
+    {
+    "Question": "What is the role of the Genius Causub?",
+    "Choices": ["Serpent-Charming Genius", "Genius Of Therapeutics", "Genius Who Conceals Treasures", "Genius Of Forests"], 
+    "Answer": "Serpent-Charming Genius"
+    },
+    {
+    "Question": "What is the role of the Genius Salilus?",
+    "Choices": ["Physician", "Genius Of Sacred Vessels", "Genius Of Precious Stones", "Genius Who Sets Doors Open"], 
+    "Answer": "Genius Who Sets Doors Open"
+    },
+    {
+    "Question": "What is the role of the Genius Jazer?",
+    "Choices": ["Genius Who Compels Love", "Genius Of Fruits", "Genius Of The Stibium Of The Sages", "Genius Of Fire"], 
+    "Answer": "Genius Who Compels Love"
+    },
+    {
+    "Question": "What is the role of the Genius Nantur?",
+    "Choices": ["Genius Of Extortion", "Genius Of The Marriage Of Contraries", "Genius Of Snowstorms", "Genius Of Writing"], 
+    "Answer": "Genius Of Writing"
+    },
+    {
+    "Question": "What is the role of the Genius Toglas?",
+    "Choices": ["Genius Of Doves", "Genius Of Divination", "Genius Who Sets Prisons Open", "Genius Of Treasures"], 
+    "Answer": "Genius Of Treasures"
+    },
+    {
+    "Question": "What is the role of the Genius Zalburis?",
+    "Choices": ["Genius Who Conceals Treasures", "Genius Of Agriculture", "Genius Of Therapeutics", "Physician"], 
+    "Answer": "Genius Of Therapeutics"
+    },
+    {
+    "Question": "What is the role of the Genius Alphun?",
+    "Choices": ["Genius Of Doves", "Judge", "Physician", "Genius Of Fascination"], 
+    "Answer": "Genius Of Doves"
+    },
+    {
+    "Question": "What is the role of the Genius Tukiphat?",
+    "Choices": ["Genius Of The Schamir", "Genius Of Success", "Genius Of Mysteries", "Genius Of Scandal"], 
+    "Answer": "Genius Of The Schamir"
+    },
+    {
+    "Question": "What is the role of the Genius Zizuph?",
+    "Choices": ["Genius Of Mysteries", "Destroying Genius Of Idols", "Genius Of Inquisition", "Genius Of The Marriage Of Contraries"], 
+    "Answer": "Genius Of Mysteries"
+    },
+    {
+    "Question": "What is the role of the Genius Cuniali?",
+    "Choices": ["Genius Of Association", "Genius Of Measure And Balance", "Genius Of Oracles", "Devil Or Hostile Genius"], 
+    "Answer": "Genius Of Association"
+    },
+    {
+    "Question": "What is the role of the Genius Eisnuch?",
+    "Choices": ["Genius Of Confusion", "Genius Of Scandal", "Genius Of Agriculture", "Genius Who Compels Love"], 
+    "Answer": "Genius Of Agriculture"
+    },
+    {
+    "Question": "What is the role of the Genius Suclagus?",
+    "Choices": ["Genius Of Fire", "Genius Who Compels Love", "Genius Of Persecution", "Genius Of Precious Stones"], 
+    "Answer": "Genius Of Fire"
+    },
+    {
+    "Question": "What is the role of the Genius Kirtabus?",
+    "Choices": ["Genius Of Languages", "Genius Of Agriculture", "Serpent-Charming Genius", "Genius Of Infirmities"], 
+    "Answer": "Genius Of Languages"
+    },
+    {
+    "Question": "What is the role of the Genius Sablil?",
+    "Choices": ["Genius Who Discovers Thieves", "Genius Of Fear", "Judge", "Genius Of The Onyx"], 
+    "Answer": "Genius Who Discovers Thieves"
+    },
+    {
+    "Question": "What is the role of the Genius Schachljl?",
+    "Choices": ["Necromancer", "Genius Of Plants", "Genius Of Oracles", "Genius Of The Sun's Rays"], 
+    "Answer": "Genius Of The Sun's Rays"
+    },
+    {
+    "Question": "What is the role of the Genius Colopatiron?",
+    "Choices": ["Genius Of Fornication", "Genius Of Precious Stones", "Genius Of The Seas", "Genius Who Sets Prisons Open"], 
+    "Answer": "Genius Who Sets Prisons Open"
+    },
+    {
+    "Question": "What is the role of the Genius Zeffak?",
+    "Choices": ["Genius Of Therapeutics", "Genius Of Irrevocable Choice", "Genius Of Persecution", "Genius Of Amulets"], 
+    "Answer": "Genius Of Irrevocable Choice"
+    },
+    {
+    "Question": "What is the role of the Genius Sezarbil?",
+    "Choices": ["Devil Or Hostile Genius", "Genius Of Stryges", "Genius Of Hidden Gold", "Genius Who Compels Love"], 
+    "Answer": "Devil Or Hostile Genius"
+    },
+    {
+    "Question": "What is the role of the Genius Azeuph?",
+    "Choices": ["Destroyer Of Children", "Necromancer", "Genius Of Calculations", "Genius Of The Quintessence"], 
+    "Answer": "Destroyer Of Children"
+    },
+    {
+    "Question": "What is the role of the Genius Armilus?",
+    "Choices": ["Genius Who Discovers Thieves", "Genius Of Cupidity", "Genius Of Voyages", "Genius Of Association"], 
+    "Answer": "Genius Of Cupidity"
+    },
+    {
+    "Question": "What is the role of the Genius Kataris?",
+    "Choices": ["Genius Of Oracles", "Genius Of Confusion", "Genius Of Judgment", "Genius Of Dogs Or Of The Profane"], 
+    "Answer": "Genius Of Dogs Or Of The Profane"
+    },
+    {
+    "Question": "What is the role of the Genius Razanil?",
+    "Choices": ["Genius Of The Onyx", "Serpent-Charming Genius", "Genius Of Doves", "Genius Of Amulets"], 
+    "Answer": "Genius Of The Onyx"
+    },
+    {
+    "Question": "What is the role of the Genius Bucaphi?",
+    "Choices": ["Genius Who Sets Prisons Open", "Genius Of Divination", "Genius Of Stryges", "Destroying Genius Of Idols"], 
+    "Answer": "Genius Of Stryges"
+    },
+    {
+    "Question": "What is the role of the Genius Mastho?",
+    "Choices": ["Genius Of Amulets", "Genius Of Voyages", "Genius Of Extortion", "Genius Of Delusive Appearances"], 
+    "Answer": "Genius Of Delusive Appearances"
+    },
+    {
+    "Question": "What is the role of the Genius Eglun?",
+    "Choices": ["Genius Of Therapeutics", "Genius Of The Lightning", "Genius Of Persecution", "Genius Of Fruits"], 
+    "Answer": "Genius Of The Lightning"
+    },
+    {
+    "Question": "What is the role of the Genius Zuphlas?",
+    "Choices": ["Genius Of Forests", "Genius Who Sets Doors Open", "Genius Of Languages", "Genius Of Precipices"], 
+    "Answer": "Genius Of Forests"
+    },
+    {
+    "Question": "What is the role of the Genius Phaldor?",
+    "Choices": ["Genius Of Writing", "Genius Of Delusive Appearances", "Genius Of Voyages", "Genius Of Oracles"], 
+    "Answer": "Genius Of Oracles"
+    },
+    {
+    "Question": "What is the role of the Genius Rosabis?",
+    "Choices": ["Genius Of The Schamir", "Genius Of Metals", "Genius Of Sympathies", "Genius Of Mysteries"], 
+    "Answer": "Genius Of Metals"
+    },
+    {
+    "Question": "What is the role of the Genius Adjuchas?",
+    "Choices": ["Genius Of The Onyx", "Genius Of Rocks", "Physician", "Genius Of Hidden Gold"], 
+    "Answer": "Genius Of Rocks"
+    },
+    {
+    "Question": "What is the role of the Genius Zophas?",
+    "Choices": ["Genius Of The Stibium Of The Sages", "Genius Of Fear", "Genius Of Free Will", "Genius Of Pantacles"], 
+    "Answer": "Genius Of Pantacles"
+    },
+    {
+    "Question": "What is the role of the Genius Halacho?",
+    "Choices": ["Sustaining Genius", "Genius Of Delusive Appearances", "Genius Of Sympathies", "Genius Of Precipices"], 
+    "Answer": "Genius Of Sympathies"
+    },
+    {
+    "Question": "What is the role of the Genius Tarab?",
+    "Choices": ["Genius Of Adornments", "Genius Of Desire", "Physician", "Genius Of Extortion"], 
+    "Answer": "Genius Of Extortion"
+    },
+    {
+    "Question": "What is the role of the Genius Misran?",
+    "Choices": ["Genius Of Persecution", "Genius Of Sacred Vessels", "Genius Of Fear", "Genius Of Dogs Or Of The Profane"], 
+    "Answer": "Genius Of Persecution"
+    },
+    {
+    "Question": "What is the role of the Genius Labus?",
+    "Choices": ["Genius Of Fear", "Genius Of Inquisition", "Genius Of Death", "Genius Of The Onyx"], 
+    "Answer": "Genius Of Inquisition"
+    },
+    {
+    "Question": "What is the role of the Genius Kalab?",
+    "Choices": ["Genius Of Sacred Vessels", "Genius Who Conceals Treasures", "Judge", "Genius Of Voyages"], 
+    "Answer": "Genius Of Sacred Vessels"
+    },
+    {
+    "Question": "What is the role of the Genius Hahab?",
+    "Choices": ["Genius Of Royal Tables", "Genius Of The Onyx", "Genius Of The Marriage Of Contraries", "Genius Of Discord"], 
+    "Answer": "Genius Of Royal Tables"
+    },
+    {
+    "Question": "What is the role of the Genius Marnes?",
+    "Choices": ["Genius Of Sympathies", "Avenging Genius", "Genius Of The Discernment Of Spirits", "Genius Of Fascination"], 
+    "Answer": "Genius Of The Discernment Of Spirits"
+    },
+    {
+    "Question": "What is the role of the Genius Sellen?",
+    "Choices": ["Genius Of The Favour Of The Great", "Genius Of Extortion", "Genius Of Fruits", "Genius Of Death"], 
+    "Answer": "Genius Of The Favour Of The Great"
+    },
+    ]
+    
   var CurrentQuestion;
   var AnsweredQuestions = [];
 
@@ -406,6 +823,7 @@ window.onload = function () {
   var Margin = GameDiagonal * 0.005;
 
   document.body.appendChild(app.view);
+  console.log(app.renderer.width);
 
   var MenuContainer = new PIXI.Container();
   const MenuTextStyle = new PIXI.TextStyle({
@@ -766,6 +1184,7 @@ window.onload = function () {
     {
       // Wrong
     }*/
+    console.log(OptionA.text)
     OptionA.interactive = false;
     OptionB.interactive = false;
     OptionC.interactive = false;
@@ -826,6 +1245,7 @@ window.onload = function () {
         break;
     }
 
+    console.log(AnsweredQuestions);
     // Remove Effect and advance question
     setTimeout(() => 
     {
@@ -848,7 +1268,7 @@ window.onload = function () {
 
   // Events
   function PositionObjects() {
-	app.renderer.resize(window.innerWidth, window.innerHeight);
+    app.renderer.resize(window.innerWidth, window.innerHeight);
     GameDiagonal = CalculateDiagonal(app.renderer.width, app.renderer.height);
     Margin = GameDiagonal * 0.005;
     if (CurrentScreen == Screens.Menu) {
