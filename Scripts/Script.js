@@ -13,7 +13,7 @@ window.onload = function () {
       "Answer": "Hecate"
     },
     {
-      "Question": "Which is considered one of Jupiter's domains?",
+      "Question": "What is considered one of Jupiter's domains?",
       "Choices": ["Warfare", "Death", "Prosperity", "Love"],
       "Answer": "Prosperity"
     }
